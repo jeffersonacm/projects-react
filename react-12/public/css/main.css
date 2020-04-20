@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	background-color: #f5f5f5;
 	font-size: 12px;
 	margin: 0;
@@ -15,7 +15,11 @@ body {
 
 .header {
 	background-color: white;
+	padding: 8px 16px;
 	box-shadow: 0 4px 4px -2px #e0e0e0;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .header .container {
@@ -23,17 +27,136 @@ body {
 	align-items: center;
 	align-content: center;
 	justify-content: space-between;
-	height: 220px;
+	height: 42px;
 }
 
 .container {
-	max-width: 2000px;
+	max-width: 778px;
 	margin: 0 auto;
 }
 
-.header__logo {
-	width: 500px;
+.header__instagram {
+	align-content: center;
+	height: 40px;
+}
+
+.header__img {
+	height: 100%;
 }
 
 .header__paper {
+	color: #000;
+}
+
+.stories {
+	margin-top: 60px;
+	padding: 10px 5px;
+}
+
+.stories .container {
+	display: flex;
+}
+
+.stories__person {
+	height: 70px;
+	margin-right: 10px;
+
+}
+
+.stories__image {
+	border-radius: 50%;
+	height: 100%;
+	border: 8px double #f5f5f5;
+}
+
+.stories__image--ative {
+	background: linear-gradient(50deg, rgba(255, 165, 69), rgba(199, 10, 117));
+}
+
+.posts {
+	margin: 20px 15px;
+}
+
+.posts .container {
+	align-items: center;
+	border-radius: 15px;
+	border: 2px solid #ececec;
+	background: white;
+}
+
+.posts__header {
+	display: flex;
+	padding: 7px;
+	margin-right: 10px;
+	justify-content: space-between;
+}
+
+.posts__header .posts__action {
+	display: flex;
+	align-content: center;
+}
+
+.posts__person {
+	height: 35px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.posts__person__img {
+	border-radius: 50%;
+	height: 100%;
+	align-items: center;
+	align-content: center;
+	margin-right: 10px;
+}
+
+.posts__action {
+	align-items: center;
+	align-content: center;
+}
+
+.posts__image {
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.posts__image img {
+	width: 100%;
+}
+
+.posts__interation {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.posts__interation__item {
+	color: #000;
+}
+
+.posts__interation__item--liked {
+	color: red;
+}
+
+.posts__interation__item--group {
+	margin-right: 20px;
+}
+
+.footer {
+	background: #ececec;
+	display: flex;
+	font-size: 10px;
+	align-items: center;
+}
+
+.footer__person {
+	padding: 10px;
+	height: 50px;
+}
+
+.footer__image {
+	height: 100%;
+	border-radius: 50%;
 }
