@@ -1,0 +1,4 @@
+
+> contacts_app@0.1.0 submit /home/jeff/codenation/react-14
+> react-scripts test submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
